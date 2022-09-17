@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Cabin+Sketch&family=Combo&display=swap');
+
+body {
+    background-color: azure;
+}
+
+.name {
+    text-align: center;
+    font-family: 'Cabin Sketch', cursive;
+    color: blue;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.line1 {
+    color: brown;
+}
+
+.ingredients {
+    border: 1px solid rgb(3, 151, 70);
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.ingredients-table {
+    color: blue;
+    font-family: 'Acme', sans-serif;
+    border: 1px solid rgb(3, 151, 70);
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.instructions {
+    border: 1px solid rgb(3, 151, 70);
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.instructions ol {
+    color: blue;
+    font-family: 'Combo', cursive;
+    border: 1px solid rgb(3, 151, 70);
+    margin: 0 auto;
+    width: 75%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 20px;
+}
+
+.line2 {
+    color: brown;
+}
+
+.footer {
+    color: blue;
+    text-align: center;
+}
